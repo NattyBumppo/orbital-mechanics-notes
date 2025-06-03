@@ -235,6 +235,8 @@ Finally, we construct some plots of the situation. In {numref}`fig:two-body-iner
 
 The two masses spiral around the barycenter. One way to imagine this system is as the Earth and the Moon viewed as though you were sitting on the Sun. The Earth and Moon would move through space, and they would appear to be orbiting around each other. If you observed them for a short enough time, their motion would appear to be in a straight line.
 
+(Note: in the actual Earth–Moon system, the two bodies have very different masses, which causes the barycenter to lie inside the Earth. This makes it so that the Earth's motion is more of a subtle wobble, while the Moon traces a much larger path.)
+
 ```{code-cell} python
 :tags: ["remove-input"]
 from IPython.display import display, HTML
