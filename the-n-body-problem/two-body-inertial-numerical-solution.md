@@ -98,7 +98,7 @@ In other words, the left side of {eq}`eq:numerical-solution` is another array, w
 
 ## Solution Algorithm
 
-We now have enough information to start to solve the problem. The first step is to calculate the initial acceleration using {eq}`eq:two-body-inertial-components`. This can be done for one direction at a time, as shown in the following code:
+We now have enough information to start to solve the problem. The first step is to calculate the initial acceleration using {eq}`eq:two-body-inertial-components`. This can be done for one axis at a time, as shown in the following code:
 
 ::::{tab-set-code}
 :::{literalinclude} scripts/two-body-inertial-numerical-solution.py
