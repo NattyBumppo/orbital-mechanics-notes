@@ -87,6 +87,8 @@ def absolute_motion(t, y):
 # [section-7]
 t_0 = 0  # seconds
 t_f = 480  # seconds
+# The third argument to linspace() controls the number of
+# time steps (higher = smaller delta-t)
 t_points = np.linspace(t_0, t_f, 1000)
 
 sol = solve_ivp(absolute_motion, [t_0, t_f], y_0, t_eval=t_points)
