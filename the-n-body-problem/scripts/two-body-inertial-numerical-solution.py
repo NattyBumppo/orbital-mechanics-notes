@@ -74,7 +74,7 @@ def absolute_motion(t, y):
 
     # Calculate the acceleration terms and fill in the rest
     # of the derivative array
-    r = np.sqrt(np.sum(np.square(R_2 - R_1)))
+    r = np.linalg.norm(R_2 - R_1)
     ddot = G * (R_2 - R_1) / r**3
     ddotR_1 = m_2 * ddot
     ddotR_2 = -m_1 * ddot
