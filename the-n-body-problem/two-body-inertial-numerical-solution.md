@@ -76,7 +76,7 @@ These code samples first set the constants in the problem, $G$ and $m_1 = m_2$. 
 
 ## Transforming the System of Ordinary Differential Equations
 
-The system of ordinary differential equations (ODEs) in {eq}`eq:two-body-inertial-equation-of-motion` or {eq}`eq:two-body-inertial-components` is a second order system. However, it can be transformed to a system of first-order ODEs by recognizing the acceleration as the first derivative of the velocity. Solving a first-order system is much simpler than solving a second-order system.
+The system of ordinary differential equations (ODEs) in {eq}`eq:two-body-inertial-equation-of-motion` or {eq}`eq:two-body-inertial-components` is a second-order system. However, it can be transformed to a system of first-order ODEs by recognizing the acceleration as the first derivative of the velocity. Solving a first-order system is much simpler than solving a second-order system.
 
 We know that the system of equations requires the
 
