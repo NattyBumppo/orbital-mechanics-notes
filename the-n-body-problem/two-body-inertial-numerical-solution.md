@@ -94,7 +94,7 @@ The left hand side of {eq}`eq:numerical-solution` is the time-derivative of the 
 \dot{\vector{y}} = \left[\dot{X}_1\ \dot{Y}_1\ \dot{Z}_1\ \dot{X}_2\ \dot{Y}_2\ \dot{Z}_2\ \ddot{X}_1\ \ddot{Y}_1\ \ddot{Z}_1\ \ddot{X}_2\ \ddot{Y}_2\ \ddot{Z}_2\right]
 :::
 
-In words, the left side of {eq}`eq:numerical-solution` is another array, where the first six elements are the velocity components (the first derivative of position) and the second six are the acceleration (the first derivative of velocity).
+In other words, the left side of {eq}`eq:numerical-solution` is another array, where the first six elements are the velocity components (the first derivative of position) and the second six are the acceleration (the first derivative of velocity).
 
 ## Solution Algorithm
 
