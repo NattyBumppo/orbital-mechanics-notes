@@ -32,7 +32,7 @@ ddotZ_2 = -G * m_1 * (Z_2 - Z_1) / r**3
 R_1 = y_0[:3]
 R_2 = y_0[3:6]
 
-r = np.sqrt(np.sum(np.square(R_2 - R_1)))
+r = np.linalg.norm(R_2 - R_1)
 ddot = G * (R_2 - R_1) / r**3
 ddotR_1_0 = m_2 * ddot
 ddotR_2_0 = -m_1 * ddot
