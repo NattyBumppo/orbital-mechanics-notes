@@ -87,7 +87,7 @@ We know that the system of equations requires that
 
 where $\vector{y}$ is the state vector, $t$ is time, and $f$ is a function that depends on the current time and the current state vector.
 
-The left hand side of {eq}`eq:numerical-solution` is the time-derivative of the state vector, which we find by taking the time derivative of each element of the state vector:
+The left-hand side of {eq}`eq:numerical-solution` is the time-derivative of the state vector, which we find by taking the time derivative of each element of the state vector:
 
 :::{math}
 :label: eq:state-vector-derivative
@@ -189,7 +189,7 @@ First, you need to start by importing the appropriate Python libraries. In Matla
 
 The two imports from `matplotlib` will plot the solution of the problem.
 
-Then, we need to define the function that describes the motion of our system. This function needs to compute the left hand side of the equation above ($\dot{\vector{y}}$) and return it to the solver, so that the solver can calculate the value of the state vector at time $t + \Delta t$.
+Then, we need to define the function that describes the motion of our system. This function needs to compute the left-hand side of the equation above ($\dot{\vector{y}}$) and return it to the solver, so that the solver can calculate the value of the state vector at time $t + \Delta t$.
 
 The function takes the time $t$ and current value of the state vector $y$ as inputs. In this way, we can use the current state vector to compute the current acceleration.
 
