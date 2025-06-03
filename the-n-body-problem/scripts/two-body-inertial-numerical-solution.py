@@ -72,7 +72,7 @@ def absolute_motion(t, y):
     # 6 elements of the state vector, which are the velocities
     ydot[:6] = y[6:]
 
-    # Calculate the acceleration terms and fill them in to the rest
+    # Calculate the acceleration terms and fill in the rest
     # of the derivative array
     r = np.sqrt(np.sum(np.square(R_2 - R_1)))
     ddot = G * (R_2 - R_1) / r**3
