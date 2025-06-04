@@ -2,7 +2,7 @@
 
 We saw in the [last section](./two-body-inertial-numerical-solution.md) that the center of gravity in the two-body problem moves in a straight line. In this section, we will show that the center of gravity also moves at constant velocity.
 
-Since the barycenter does not accelerate, we can define an inertial coordinate system with its origin at the barycenter and use that reference frame for further calculations.
+If we can show that the barycenter does not accelerate, that will allow us to define an inertial coordinate system with its origin at the barycenter and use that reference frame for further calculations.
 
 The **barycenter** or center of mass for the two-body system is found by using the absolute position vectors to our external inertial frame:
 
