@@ -131,7 +131,7 @@ Interestingly, the roles of $m_1$ and $m_2$ can be interchanged by multiplying E
 
 Now, referring to the [](./motion-of-the-barycenter.md), we will find the motion of the masses relative to the center of mass, $\COG$, of the system. Let $\vector{r}_1$ and $\vector{r}_2$ be the position vectors of $m_1$ and $m_2$ relative to the center of mass, respectively. We also note that, in this definition, $\uvec{u}_r$ points in the same direction as $\vector{r}_2$.
 
-Skipping all the algebra, it turns out that the equation of motion for $m_2$ relative to $G$ is:
+Skipping all the algebra, it turns out that the equation of motion for $m_2$ relative to $\COG$ is:
 
 :::{math}
 :label: eq:motion-of-m_2-relative-to-COG
